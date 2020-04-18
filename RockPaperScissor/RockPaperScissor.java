@@ -2,8 +2,6 @@
 // 16, April, 2020
 // RockPaperScissor.java
 
-package Default;
-
 import java.util.Random;
 import java.util.Scanner;
 

@@ -2,7 +2,6 @@
 // 16, April, 2020
 // GetInput.java
 
-package Default;
 import java.util.Scanner;
 
 public class GetInput {

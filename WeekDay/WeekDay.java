@@ -2,7 +2,6 @@
 // 16, April, 2020
 // WeekDay.java
 
-package Default;
 import java.util.Scanner;
 
 public class WeekDay {

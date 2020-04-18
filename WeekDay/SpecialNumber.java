@@ -2,8 +2,6 @@
 // 16, April, 2020
 // SpecialNumber.java
 
-package Default;
-
 public class SpecialNumber {
 	
 	// This method gives you the day of the week (0 = Saturday, 1 = Sunday, etc)

@@ -2,8 +2,6 @@
 // 16, April, 2020
 // SpecialNumber.java
 
-package Default;
-
 public class SpecialNumber {
 	
 	// This method calculates the monthly payment to return a loan  

@@ -2,8 +2,6 @@
 // 16, April, 2020
 // GetLoan.java
 
-package Default;
-
 import java.util.Scanner;
 
 public class GetLoan {
