@@ -8,4 +8,4 @@ public class myProgram {
 		new RockPaperScissor();
 	
 	}
-}
+}// !myProgram()

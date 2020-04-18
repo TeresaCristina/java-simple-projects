@@ -18,17 +18,4 @@ public class GetInput {
 		return validInteger;
 	}// !validInteger()
 	
-	// This method checks for a double
-	public static double validDouble(Scanner myInput) {
-		double validDouble;
-		if (myInput.hasNextDouble()) {
-			validDouble = myInput.nextDouble();
-		} else {
-			validDouble = 0;
-			myInput.nextLine();
-		}
-		
-		return validDouble;
-	}// !validDouble()
-	
 }// !GetInput.java

@@ -27,6 +27,7 @@ public class HangMan {
 		playGame();
 	}// !Hanging()
 
+        // Computer chooses a random word
 	private void secretWord() {
 		int randNumb = (new Random()).nextInt(dictionary.length - 1);
 		myWord = dictionary[randNumb];

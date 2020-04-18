@@ -1,7 +1,7 @@
 // Teresa Cristina Paixao Costa 
 // 25, January, 2020
 // CreditCard.java
-
+                            
 public class CreditCard {
 
 	private long creditCardNumber;
@@ -24,7 +24,7 @@ public class CreditCard {
 	}
 
 	// Validates a corrected sized credit card number
-	public Boolean validatesCreditCard() {
+	private Boolean validatesCreditCard() {
 		Boolean isValid = true;
 		separateDigits();
 		if (checksPrefix() == true) {
@@ -41,7 +41,7 @@ public class CreditCard {
 	}// !validattesCreditCard()
 
 	// Method that separates the digits of a number into an array
-	public void separateDigits() {
+	private void separateDigits() {
 		digits = new long[numberDig];
 		int i = 0;
 		while (creditCardNumber / 10 > 0) {
@@ -52,7 +52,7 @@ public class CreditCard {
 	}// !separateDigits()
 
 	// Checks if the number has a valid prefix digit
-	public boolean checksPrefix() {
+	private boolean checksPrefix() {
 		boolean isPrefix = true;
 		if (digits[numberDig - 1] < 4 || digits[numberDig - 1] > 6) {
 			isPrefix = false;
@@ -63,7 +63,7 @@ public class CreditCard {
 	}// !checksPrefix()
 
 	// Adds the digits in the even position
-	public long addEvenDigits() {
+	private long addEvenDigits() {
 		long sum = 0;
 		for (int i = 1; i < numberDig; i = i + 2) {
 			sum += addsTwoDigitsNumber(digits[i] * 2);
@@ -72,7 +72,7 @@ public class CreditCard {
 	}// !addEvenDigits()
 
 	// Returns the number or the sum of its two digits
-	public long addsTwoDigitsNumber(long number) {
+	private long addsTwoDigitsNumber(long number) {
 		if (number / 10 > 0) {
 			number = (number % 10) + (number / 10);
 		}
@@ -80,7 +80,7 @@ public class CreditCard {
 	}// !addsTwoDigitsNumber()
 
 	// Adds the digits in the uneven position
-	public long addUnevenDigits() {
+	private long addUnevenDigits() {
 		long sum = 0;
 		for (int i = 0; i < numberDig; i = i + 2) {
 			sum += digits[i];

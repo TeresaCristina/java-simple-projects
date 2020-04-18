@@ -15,12 +15,4 @@ public class GetOutput {
 		return myWord;
 	}// !getArray()
 
-	// This method returns a String array as a string
-	public static String getMatrixLine(String[] myArray) {
-		String myWord = "";
-		for (int i = 0; i < myArray.length; i++) {
-			myWord = myWord + myArray[i] + space;
-		}
-		return myWord;
-	}
 }// !GetOutput()

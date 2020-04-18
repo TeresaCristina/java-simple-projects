@@ -17,14 +17,4 @@ public class GetInput {
 		return validInteger;
 	}// !validInteger()
 
-	// This method checks for a double on user input
-	public static Boolean validDouble(Scanner myInput) {
-		Boolean validDouble = true;
-		if (myInput.hasNextDouble() == false) {
-			validDouble = false;
-			myInput.nextLine();
-		}
-		return validDouble;
-	}// !validDouble()
-
 }// !GetInput.java

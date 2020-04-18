@@ -24,24 +24,4 @@ public class GetInput {
 		return validOneChar;
 	}// !validOneCharacter()
 
-	// This method checks for an integer on user input
-	public static Boolean validInteger(Scanner myInput) {
-		Boolean validInteger = true;
-		if (myInput.hasNextInt() == false) {
-			validInteger = false;
-			myInput.nextLine();
-		}
-		return validInteger;
-	}// !validInteger()
-
-	// This method checks for a double on user input
-	public static Boolean validDouble(Scanner myInput) {
-		Boolean validDouble = true;
-		if (myInput.hasNextDouble() == false) {
-			validDouble = false;
-			myInput.nextLine();
-		}
-		return validDouble;
-	}// !validDouble()
-
 }// !GetInput.java

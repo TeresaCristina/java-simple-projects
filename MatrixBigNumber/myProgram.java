@@ -7,4 +7,4 @@ public class myProgram {
 
 		new BigNumber();
 	}
-}
+}// !myProgram()
