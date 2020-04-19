@@ -10,21 +10,22 @@ On the other hand I would not mind at all if you use my solutions as inspiration
 or to develop your own project ideas. :wink:
 
 ### Table of Contents
-1. [ComplexNumbers]()
+1. [ComplexNumbers](https://github.com/TeresaCristina/java-simple-projects/tree/master/ComplexNumbers)
 2. [CreditCardNumber](https://github.com/TeresaCristina/java-simple-projects/tree/master/CreditCardNumber)
 3. [GetLoan](https://github.com/TeresaCristina/java-simple-projects/tree/master/GetLoan)
 4. [HangMan](https://github.com/TeresaCristina/java-simple-projects/tree/master/HangMan)
 5. [MatrixBigNumber](https://github.com/TeresaCristina/java-simple-projects/tree/master/MatrixBigNumber)
-6. [RockPaperScissor](https://github.com/TeresaCristina/java-simple-projects/tree/master/RockPaperScissor)
-7. [WeekDay](https://github.com/TeresaCristina/java-simple-projects/tree/master/WeekDay)
+6. [RandomArray] (https://github.com/TeresaCristina/java-simple-projects/tree/master/RandomArray)
+7. [RockPaperScissor](https://github.com/TeresaCristina/java-simple-projects/tree/master/RockPaperScissor)
+8. [WeekDay](https://github.com/TeresaCristina/java-simple-projects/tree/master/WeekDay)
 
 ### 1. ComplexNumbers 
 Basic Math Operations using [Complex Numbers](https://en.wikipedia.org/wiki/Luhn_algorithm).
 
-- MathOperations (Interface)
-- Complex Numbers (algorithm for sum, subtraction, multiplication, division)
-- GetInput (return a string with the user input)
-- Utilities (method that tranforms a string array into a double array)
+- MathOperations : Interface
+- Complex Numbers : algorithm for sum, subtraction, multiplication, division
+- GetInput : generates a string with the user input
+- Utilities : static method that tranforms a String array into a Double array
 
 **Keywords:** _Scanner Class , Basic Mathematical Operations , Block Try/Catch , One-Dimensional Array , Loops , Abstract Class , Overloading_ 
 
@@ -64,7 +65,17 @@ Creates a [matrix](https://courses.lumenlearning.com/boundless-algebra/chapter/i
 
 _Scanner Class , One-Dimensional Array , Two-Dimensional Array , Block Try/Catch , Loops_ 
 
-### 6.RockPaperScissor :scissors:
+### 6.RandomArray
+Generates a random [One-Dimensional Array](https://en.wikipedia.org/wiki/Array_data_structure) of integers. 
+
+- RandomIntArray: generates an array filled with integers
+- RandomInteger : generates a random integer 
+- GetInput: generates a string with user input
+- Utilities: static method that tranforms stringo to integer
+
+_Scanner Class , Random Class , One-Dimensional Array , Block try/Catch, Loops_ 
+
+### 7.RockPaperScissor :scissors:
 Play [Rock-Paper-Scissor](https://en.wikipedia.org/wiki/Rock_paper_scissors) with the computer.
 
 - RockPaperScissor (plays the game)
@@ -72,7 +83,7 @@ Play [Rock-Paper-Scissor](https://en.wikipedia.org/wiki/Rock_paper_scissors) wit
 
 _Scanner Class , Random Class , One-Dimensional Array , Loops_ 
 
-### 7.WeekDay :calendar:
+### 8.WeekDay :calendar:
 Finds out the weekday of an specific calendar day using the [Zeller algorithm](https://en.wikipedia.org/wiki/Zeller%27s_congruence).
 
 - WeekDay (validates user input for a valida calendary day)
